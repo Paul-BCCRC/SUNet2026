@@ -1,0 +1,83 @@
+[Copyright.txt](https://github.com/user-attachments/files/32254280/Copyright.txt)
+PHSA NON-COMMERCIAL SOURCE-AVAILABLE LICENCE
+Draft for PHSA review | Prepared September 9, 2026
+
+Software: SUnet version 0.9
+Copyright (c) 2026 Provincial Health Services Authority.
+All rights reserved.
+Licensing contact: PHSA Technology Development Office (TDO)
+tdoadmin@phsa.ca
+
+1. SCOPE AND ACCEPTANCE
+
+This licence applies to the PHSA-owned source code, executable code, and
+documentation identified above (the "Software"). Provincial Health Services
+Authority ("PHSA") grants only the permissions expressly stated here. By using,
+copying, or modifying the Software, you accept these terms. If acting for an
+organization, you must have authority to accept them on its behalf.
+
+2. PERMITTED NON-COMMERCIAL USE
+
+Subject to this licence, PHSA grants a non-exclusive, royalty-free,
+non-transferable copyright licence to use, copy, and modify the Software:
+
+(a) for internal non-commercial research and education by non-profit
+    institutions and Canadian federal, provincial, territorial, and local
+    government bodies; or
+(b) for internal, non-commercial evaluation by other organizations, solely
+    to determine whether to seek a separate licence from PHSA.
+
+"Non-commercial" excludes use for commercial advantage, monetary compensation,
+product or service development for commercial exploitation, paid services,
+consulting, or work performed for or on behalf of a commercial entity. An
+organization's non-profit status does not itself make a use non-commercial.
+
+Any other use requires a separate written licence from PHSA through TDO.
+
+3. COPYING, MODIFICATION, AND REDISTRIBUTION
+
+Copies and modifications must remain within the licensed organization and be
+used only as permitted above. Preserve this licence, copyright notices, and
+attributions in every copy; clearly identify modifications and their dates.
+Do not sell, sublicense, publish, redistribute, or provide third-party access
+to the Software or modifications without PHSA's prior written permission.
+
+4. AUTOMATED INGESTION AND AI
+
+Without PHSA's prior written permission, do not submit the Software or its
+modifications to AI or machine-learning training systems, code-ingestion
+services, crawlers, indexing services, or text or data mining systems. This
+restriction concerns ingestion of the Software itself; it does not prohibit
+ordinary compilation, testing, or execution for a use permitted by section 2.
+
+5. RESERVED RIGHTS AND THIRD-PARTY MATERIALS
+
+PHSA retains ownership of the Software. No patent or trademark licence is
+granted. If a proposed use requires patent rights, obtain a separate written
+licence from PHSA before that use. Separately identified third-party materials
+remain governed by their own licences; this licence does not replace them.
+Do not imply PHSA or BC Cancer endorsement or use their logos without written
+permission.
+
+6. RESEARCH SOFTWARE; WARRANTY AND LIABILITY
+
+The Software is provided "AS IS", without warranties, including merchantability,
+fitness for a particular purpose, accuracy, or non-infringement. PHSA has no
+obligation to support, maintain, or update it. This licence does not authorize
+clinical diagnosis, treatment, or patient-care decisions.
+
+To the extent permitted by applicable law, PHSA and its personnel are not
+liable for losses or damages arising from the Software or its use, including
+lost data, lost profits, or direct, indirect, incidental, or consequential
+damages, even if advised of their possibility.
+
+7. TERMINATION AND GOVERNING LAW
+
+Your permissions terminate upon breach. You must then stop using the Software
+and delete your copies and modifications. Sections concerning reserved rights,
+warranties, liability, and governing law survive termination. This licence is
+governed by the laws of British Columbia and the applicable laws of Canada.
+Revised terms apply only to releases supplied under those revised terms.
+
+END OF LICENCE
+
