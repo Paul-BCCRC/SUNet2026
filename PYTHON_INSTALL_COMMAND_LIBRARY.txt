@@ -1,0 +1,69 @@
+Python version 3.12.3 !!!!!!!!!!!!!!!!
+
+To open command prompt:
+Start --> Anaconda3(64bit) --> Anaconda Prompt  (Right click run as admin)
+
+ANACONDA CONSOLE COMMANDS:
+python					Begins a python kernel in the command line
+exit()					Ends it
+
+ENVIRONMENT COMMANDS:
+conda list				Lists modules installed in active environment
+conda env list				Lists all environments
+conda activate base			Switches to environment "base" for example
+conda create -n pytorch			Creates environment pytorch
+conda remove -n pytorch --all		Deletes environment pytorch
+
+
+nvcc --version				Returns installed Cuda versions
+
+
+conda install spyder-kernels=2.5	Installs spyder kernel version 2.4
+conda install pip			Installs pip
+
+
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+					Installs pytorch cuda 11.8
+
+pip install tensorflow-gpu==2.8.0
+conda create --name tf-gpu tensorflow-gpu cudatoolkit=11.8
+conda install -c conda-forge cudatoolkit=11.8 cudnn=8.2.1
+pip install “tensorflow<2.11"
+
+
+conda install scipy
+conda install scikit-image
+conda install openpyxl			For spreadsheet output
+conda install tqdm			For progression bars (for pytorch code)
+conda install matplotlib		For training plots
+
+pip install rasterio
+
+conda install -c conda-forge ome-types	For ome metadata
+pip install --upgrade --pre ome-types
+
+pip install pyvips
+
+conda search -f cudnn			Searches conda for available versions of cudnn or anything else
+
+
+PYTHON INTERPRETOR COMMANDS:
+
+import sys; print(sys.executable)	Prints python executable path:
+import torch
+torch.cuda.is_available()		Checks if torch and GPU/cuda available
+import tensorflow as tf
+tf.config.list_physical_devices('GPU')	Checks if tf and GPU/cuda available
+
+
+
+CHANGE PYTHON INTERPRETOR:
+Tools ----> Preferences ----> Python interpreter ----> "Use the following Python interpretor"  C:\ProgramData\anaconda3\envs\pytorch\python.exe
+
+
+HELPFUL LINKS:
+https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder#the-modular-approach
+https://pytorch.org/get-started/locally/
+
+OME
+https://pypi.org/project/ome-types/
